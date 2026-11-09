@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="form.html">Go to Form Page</a>
+
+    <div style="margin-top: 20px;">
+      <label for="accountSelect">Select Account ID:</label>
+      <select id="accountSelect" onchange="displayRecord()">
+        <option value="">--Select an ID--</option>
+      </select>
+    </div>
+
+    <!-- table to display data  -->
+    <table border="1" id="recordsTable" style="margin-top: 20px; display: none;">
+      <thead>
+        <tr>
+          <th>Data Entry</th>
+          <th>User Input</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- JS injection -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

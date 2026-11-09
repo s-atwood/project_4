@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <a href="records.html">Go to Records Page</a>
+
+    <form id="userDataForm">
+    <fieldset>
+      <legend>User Survey</legend>
+
+      <div>
+        <label for="favoriteColor">Favorite Color:</label>
+        <input type="text" id="favoriteColor">
+      </div>
+
+      <div>
+        <label for="petPreference">Pet Preference:</label>
+        <select id="petPreference">
+          <option value="">--Select One--</option>
+          <option value="Dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="Fish">Fish</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Coffee or Tea?</label>
+        <input type="radio" id="drinkCoffee" name="beverage" value="Coffee">
+        <label for="drinkCoffee">Coffee</label>
+
+        <input type="radio" id="drinkTea" name="beverage" value="Tea">
+        <label for="drinkTea">Tea</label>
+      </div>
+
+      <div>
+        <label for="userBio">Short Bio (Multi-line)</label>
+        <textarea id="userBio" rows="4" cols="40"></textarea>
+      </div>
+
+      <div>
+        <label for="luckyNumber">Lucky Number:</label>
+        <input type="number" id="luckyNumber">
+      </div>
+
+      <button type="button" onclick="submitSurvey()">Submit Data</button>
+
+    </fieldset>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+

@@ -1,0 +1,12 @@
+[
+  {
+    "username": "shawn",
+    "password": "pass",
+    "accountFile": "users/user_1794166030060.json"
+  },
+  {
+    "username": "bud",
+    "password": "hi",
+    "accountFile": "users/user_1794192365354.json"
+  }
+]
